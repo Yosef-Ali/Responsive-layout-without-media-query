@@ -24,6 +24,7 @@ h1, h2 {
 .container > * {
   padding: 20px;
 }
+
 .container {
   color: white;
   font-family: helvetica, arial, sans-serif;
@@ -37,11 +38,13 @@ header {
   flex: 1 0 100%;
   order: 1;
 }
+/* applying flex-shrink 1 will make the width auto */
 main {
   background: slategray;
   order: 3;
   flex: 1 1 500px;
 }
+/* the order of nav is 2 for accessibility reisen*/
 nav {
   background: cadetblue;
   order: 2;
